@@ -1,0 +1,9 @@
+:root {
+  --luma-bg: #ffffff;
+  --luma-text: #1d1d1f;
+}
+
+body {
+  background: var(--luma-bg);
+  color: var(--luma-text);
+}
