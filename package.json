@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
+    "build:theme": "tsx scripts/build-theme.ts",
     "lint": "turbo lint"
   },
   "devDependencies": {
+    "tsx": "^4.21.0",
     "turbo": "^2.7.3"
   }
 }

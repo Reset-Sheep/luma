@@ -12,6 +12,13 @@
   "peerDependencies": {
     "vue": "^3.4.0"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build"

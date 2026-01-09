@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --luma-bg: #ffffff;
+  --luma-text: #1d1d1f;
+  --luma-muted: #6e6e73;
+
+  /* Typography */
+  --luma-font-sans: -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --luma-text-hero: clamp(2.5rem, 5vw, 4rem);
+  --luma-text-lg: 1.25rem;
+  --luma-text-base: 1rem;
+
+  /* Space */
+  --luma-space-sm: 8px;
+  --luma-space-md: 16px;
+  --luma-space-lg: 32px;
+  --luma-space-xl: 64px;
+}
